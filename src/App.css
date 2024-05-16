@@ -1,0 +1,90 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.PasswordBox {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.PasswordBox h1 {
+ 
+  color: rgb(104, 25, 128);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.PasswordBoxin, .passlength {
+  margin-bottom: 20px;
+}
+
+.PasswordBoxin input, .passlength input[type="number"], .passlength input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+.PasswordBoxin input {
+  padding: 10px;
+  width: 60%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.PasswordBoxin button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.PasswordBoxin button:hover {
+  background-color: darkblue;
+}
+
+.passlength label {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.passlength input[type="number"] {
+  padding: 10px;
+  width: 50px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+
